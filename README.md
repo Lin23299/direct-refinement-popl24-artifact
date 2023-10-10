@@ -26,6 +26,17 @@ claims made in each section of the paper below along with the
 references to their corresponding Coq formalization in the artifact. A
 more organized and complete explanation of the Coq formalization is
 located in the section "Structure of the Formal Proofs" below.
+  
+### Section 3
+
+- Lemma 3.1 from Section3.2.1 (line 708) of the paper corresponds to the theorem
+  [injp_injp2](DirectRefinement/cklr/InjectFootprint.v#L2481) in the Coq file
+  [cklr/InjectFootprint.v](DirectRefinement/cklr/InjectFootprint.v). 
+  
+- Lemma 3.2 from Section3.2.2 (line 763) corresponds to the theorem 
+  [injp_injp](DirectRefinement/cklr/InjectFootprint.v#L472) in the same file.
+
+
 
 ### Section 2
 - The simulation convention $\mathbb{C}$ for the direct refinement in
@@ -42,15 +53,7 @@ located in the section "Structure of the Formal Proofs" below.
   [open_fsim_ccref](./DirectRefinement/common/CallconvAlgebra.v#L76) in the Coq file
   [common/CallconvAlgebra.v](./DirectRefinement/common/CallconvAlgebra.v).
   Note that this theorem is part of the background and has already been proved in CompCertO.
-  
-### Section 3
 
-- Lemma 3.1 from Section3.2.1 (line 708) of the paper corresponds to the theorem
-  [injp_injp2](DirectRefinement/cklr/InjectFootprint.v#L2481) in the Coq file
-  [cklr/InjectFootprint.v](DirectRefinement/cklr/InjectFootprint.v). 
-  
-- Lemma 3.2 from Section3.2.2 (line 763) corresponds to the theorem 
-  [injp_injp](DirectRefinement/cklr/InjectFootprint.v#L472) in the same file.
 
 ### Section 4
 - Lemma 4.1 from Section 4.1.2 (line 861) corresponds to the theorem 
