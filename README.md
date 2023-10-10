@@ -399,7 +399,7 @@ The *Open LTS* (line 369-377) is defined by `lts` in the same file.
 
 -  The refinement of simulation conventions (line 571-572) is defined as `ccref` 
    in [common/CallconvAlgebra.v](DirectRefinement/common/CallconvAlgebra.v).
-   Note that $\mathbb{R} \sqsubseteq \mathbb{S}$ corresponds to `ccref S R`.
+   Note that `R \sqsubseteq S` corresponds to `ccref S R`.
    The equivalence is defined as `cceqv` in the same file.
 
 -  Theorem 2.4 (line 580) is defined as `open_fsim_ccref` in 
@@ -573,7 +573,7 @@ The proofs of remaining passes are unchanged from CompCertO.
 
 We have mentioned the corresponding theorems of the properties for refining
 simulation conventions in Section 4.2 in the `List of technical claims` part.
-The direct simulation convention $`\mathbb{C}`$ (line 973)
+The direct simulation convention `\mathbb{C}` (line 973)
 is defined as `cc_compcert` in [driver/Compiler.v](DirectRefinement/driver/Compiler.v):
 ```
 Definition cc_compcert : callconv li_c li_asm :=
@@ -670,7 +670,7 @@ are shown in Figure 3 in our paper.
 #### Refinement for the Hand-written Server (Section 5.1)
 
 First, we show the refinement between the specification of
-`server_opt.s` (i.e., $`L_S`$ in our paper) and the semantics of
+`server_opt.s` (i.e., *L_S* in our paper) and the semantics of
 `server_opts`.
 
 * (Definition 5.1) The hand-written specification ($L_S$) for the
