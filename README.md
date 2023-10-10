@@ -670,7 +670,7 @@ are shown in Figure 3 in our paper.
 #### Refinement for the Hand-written Server (Section 5.1)
 
 First, we show the refinement between the specification of
-`server_opt.s` (i.e., *L_S* in our paper) and the semantics of
+`server_opt.s` (i.e., *L_s* in our paper) and the semantics of
 `server_opts`.
 
 * (Definition 5.1) The hand-written specification ($L_S$) for the
