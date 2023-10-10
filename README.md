@@ -30,7 +30,7 @@ located in the section "Structure of the Formal Proofs" below.
 ### Section 2
 
 
-- The simulation convention for the direct refinement in
+- The simulation convention for the direct refinement $`\mathbb{C}`$ in
   Section 2.2 (line 450) corresponds to the definition
   [cc_c_asm_injp](DirectRefinement/driver/CA.v#L184) in the Coq file
   [driver/CA.v](DirectRefinement/driver/CA.v).
@@ -573,7 +573,7 @@ The proofs of remaining passes are unchanged from CompCertO.
 
 We have mentioned the corresponding theorems of the properties for refining
 simulation conventions in Section 4.2 in the `List of technical claims` part.
-The direct simulation convention $\mathbb{C}$ (line 973)
+The direct simulation convention $`\mathbb{C}`$ (line 973)
 is defined as `cc_compcert` in [driver/Compiler.v](DirectRefinement/driver/Compiler.v):
 ```
 Definition cc_compcert : callconv li_c li_asm :=
