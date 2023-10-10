@@ -673,7 +673,7 @@ First, we show the refinement between the specification of
 `server_opt.s` (i.e., *L_s* in our paper) and the semantics of
 `server_opts`.
 
-* (Definition 5.1) The hand-written specification ($L_S$) for the
+* (Definition 5.1) The hand-written specification (*L_s*) for the
   optimized server (i.e., `server_opt.s`) is defined by `L2` in [demo/Serverspec.v](DirectRefinement/demo/Serverspec.v#L116). The hand-written specification (not
   discussed in the paper) for `server.s` is defined by `L1` in [demo/Serverspec.v](DirectRefinement/demo/Serverspec.v#L98).
 * (Theorem 5.2) It corresponds to `semantics_preservation_L2` in
@@ -691,7 +691,7 @@ First, we show the refinement between the specification of
 #### End-to-End Correctness Theorem (Section 5.2)
 
 In this section, we first show the refinement between the top-level
-specification ($`L_{CS}`$) and the composition of `client.c` and
+specification (`L_cs`) and the composition of `client.c` and
 $`L_S`$. And then we use the correctness of the compiler and vertical
 compositionality to establish the end-to-end refinement.
 
