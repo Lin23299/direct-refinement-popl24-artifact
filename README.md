@@ -38,7 +38,7 @@ located in the section "Structure of the Formal Proofs" below.
 
 
 
-### Section 2
+### Section 3
 - The simulation convention $\mathbb{C}$ for the direct refinement in
   Section 2.2 (line 450) corresponds to the definition
   [cc_c_asm_injp](DirectRefinement/driver/CA.v#L184) in the Coq file
