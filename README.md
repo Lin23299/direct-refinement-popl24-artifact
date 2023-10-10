@@ -30,7 +30,7 @@ located in the section "Structure of the Formal Proofs" below.
 ### Section 2
 
 
-- The simulation convention for the direct refinement $` \mathbb{C} `$ in
+- The simulation convention for the direct refinement `\mathbb{C}` in
   Section 2.2 (line 450) corresponds to the definition
   [cc_c_asm_injp](DirectRefinement/driver/CA.v#L184) in the Coq file
   [driver/CA.v](DirectRefinement/driver/CA.v).
@@ -45,6 +45,7 @@ located in the section "Structure of the Formal Proofs" below.
   [common/CallconvAlgebra.v](./DirectRefinement/common/CallconvAlgebra.v).
   Note that this theorem is part of the background and has already been proved in CompCertO.
 
+### Section 3
 
 - Lemma 3.1 from Section3.2.1 (line 708) of the paper corresponds to the theorem
   [injp_injp2](DirectRefinement/cklr/InjectFootprint.v#L2481) in the Coq file
